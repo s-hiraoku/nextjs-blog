@@ -1,6 +1,6 @@
 import { css } from "@emotion/css";
 
-export const Heading2Xl = css`
+export const heading2Xl = css`
   font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 800;
@@ -8,7 +8,7 @@ export const Heading2Xl = css`
   margin: 1rem 0;
 `;
 
-export const HeadingXl = css`
+export const headingXl = css`
   font-size: 2rem;
   line-height: 1.3;
   font-weight: 800;
@@ -16,39 +16,39 @@ export const HeadingXl = css`
   margin: 1rem 0;
 `;
 
-export const HeadingLg = css`
+export const headingLg = css`
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
 `;
 
-export const HeadingMd = css`
+export const headingMd = css`
   font-size: 1.2rem;
   line-height: 1.5;
 `;
 
-export const BorderCircle = css`
+export const borderCircle = css`
   border-radius: 9999px;
 `;
 
-export const ColorInherit = css`
+export const colorInherit = css`
   color: inherit;
 `;
 
-export const Padding1px = css`
+export const padding1px = css`
   padding-top: 1px;
 `;
 
-export const List = css`
+export const list = css`
   list-style: none;
   padding: 0;
   margin: 0;
 `;
 
-export const ListItem = css`
+export const listItem = css`
   margin: 0 0 1.25rem;
 `;
 
-export const LightText = css`
+export const lightText = css`
   color: #999;
 `;

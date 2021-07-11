@@ -2,10 +2,10 @@ import styled from "@emotion/styled";
 import Head from "next/head";
 import Link from "next/link";
 import {
-  BorderCircle,
-  Heading2Xl,
-  ColorInherit,
-  HeadingLg,
+  borderCircle,
+  heading2Xl,
+  colorInherit,
+  headingLg,
 } from "../styles/utils.module";
 
 const Container = styled.div`
@@ -62,10 +62,10 @@ function Layout({ children, home }) {
           <>
             <HeaderHomeImage
               src="/images/profile.jpg"
-              css={BorderCircle}
+              css={borderCircle}
               alt={name}
             />
-            <h1 css={Heading2Xl}>{name}</h1>
+            <h1 css={heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
@@ -73,14 +73,14 @@ function Layout({ children, home }) {
               <a>
                 <HeaderImage
                   src="/images/profile.jpg"
-                  css={BorderCircle}
+                  css={borderCircle}
                   alt={name}
                 />
               </a>
             </Link>
             <h2 css={HeadingLg}>
               <Link href="/">
-                <a css={ColorInherit}>{name}</a>
+                <a css={colorInherit}>{name}</a>
               </Link>
             </h2>
           </>
