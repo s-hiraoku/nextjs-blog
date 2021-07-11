@@ -34,7 +34,7 @@ const BackToHome = styled.div`
   margin: 3rem 0 0;
 `;
 
-const name = "Your Name";
+const name = "Shinichi Hiraoku";
 export const siteTitle = "Next.js Sample Website";
 
 function Layout({ children, home }) {
